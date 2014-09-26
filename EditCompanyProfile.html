@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="Edit_Company_Profile.css"/>
+</head>
+<body>
+<div class="header">
+    <img class="home" src="WhiteHomeGrayBackground.jpg" alt=""/>
+    <h1 class="header">Edit Company Info</h1>
+    <div class="save">Save</div>
+</div>
+
+
+<div class="inputSection">
+
+    <input class="name" type="text" placeholder="Company Name One"/>
+    <br/>
+    <br/>
+    <input class="address" type="text" placeholder="12358 Someplace"/>
+    <input class="city" type="text" placeholder="Santa Clara"/>
+    <input class="state" type="text" placeholder="CA"/>
+    <input class="zip" type="text" placeholder="95051"/>
+    <div id="newInput"></div>
+    <br/>
+    <br/>
+    <div class="creationDate">Creation Date: 8/9/2014</div>
+    <div id="plus" class="plus">+</div>
+    <div class="addAttribute">Add Attribute</div>
+
+</div>
+
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function(){
+        var plus = document.getElementById('plus');
+
+        plus.addEventListener('click', function(){
+            var input = document.getElementById('newInput');
+            var newInput = document.createElement('input');
+            newInput.style.border = '1px solid white';
+            input.appendChild(newInput);
+        });
+    });
+
+</script>
+</body>
+</html>

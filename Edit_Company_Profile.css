@@ -1,0 +1,67 @@
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #b0b0b0;
+}
+div.header{
+    width: 100%;
+    height: 7.7464788732394366197183098591549%;
+    border: 1px solid #b0b0b0;
+    background-color: #b0b0b0;
+}
+img.home{
+    width: 9.375%;
+    display: inline-block;
+    margin: 3%;
+    margin-top: 1%;
+    float: left;
+}
+h1.header{
+    margin-left: 28.90625%;
+    color: white;
+    font-family: 'Open Sans';
+}
+div.save{
+    float: right;
+    margin-top: -8%;
+    margin-right: 5%;
+    color: white;
+}
+div.inputSection{
+    margin-top: 15%;
+}
+input{
+    width: 80%;
+    margin-left: 9.375%;
+    margin-top: 5%;
+    font: 300 2em 'Open Sans';
+    color: white;
+    background-color: #b0b0b0;
+    border: none;
+}
+div.creationDate{
+    color: white;
+    margin-left: 10%;
+    font: 300 1em 'Open Sans';
+}
+div.plus{
+    height: 3.5211267605633802816901408450704%;
+    width: 6.25%;
+    background-color: white;
+    color: #b0b0b0;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font: 600 2em 'Open Sans';
+    margin-left: 2.1875%;
+    margin-top: 6%;
+    float: left;
+}
+div.addAttribute{
+    float: left;
+    margin-left: 2.1875%;
+    margin-top: 6%;
+    font: 600 2em 'Open Sans';
+    color: white;
+}
